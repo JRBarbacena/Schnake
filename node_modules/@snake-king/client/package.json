@@ -1,0 +1,17 @@
+{
+  "name": "@snake-king/client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@snake-king/shared": "*"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
